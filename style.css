@@ -1,0 +1,48 @@
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.header h4 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.dark-blue {
+    background-color: #1F2937;
+    display: flex;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.dark-blue p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+
+.db-left {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #3882F6;
+    color:#F9FAF8;
+}
