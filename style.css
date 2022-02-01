@@ -11,18 +11,68 @@ body {
     width: 100vw;
 }
 
+/* Dark Blue Top */
 .awesome {
     background-color: #1F2937;
 }
 
+.logo, .title{
+    color: #F9FAF8;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #94969e;
+}
+
+li {
+    list-style-type: none;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    flex: 1;
+}
+
+ul {
+    display:flex;
+    flex: 1;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+}
 .random-info {
     color: #1F2937;
 }
 
+/* Gray Quote Section */
 .quote {
-    background-color: #E5E7EB;
+    background-color: #94969e;
 }
 
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.words {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
 .bottom {
     background-color: #1F2937;
     color: #E5E7EB;
