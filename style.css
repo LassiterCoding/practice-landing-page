@@ -17,10 +17,12 @@ body {
 /* Dark Blue Top */
 .awesome {
     background-color: #1F2937;
+    padding: 100px auto;
 }
 
 .logo, .title{
     color: #F9FAF8;
+    font-family: sans-serif;
 }
 
 .logo {
@@ -36,6 +38,7 @@ a {
 
 li {
     list-style-type: none;
+    font-family: sans-serif;
 }
 
 .menu {
@@ -47,22 +50,62 @@ li {
     padding-right: 100px;
 }
 
+.nav {
+    width: 25%;
+}
+
 ul {
     display:flex;
     flex: 1;
     flex-wrap: wrap;
-    width: 100%;
     justify-content: space-between;
 }
 
 li {
     display: inline-block;
-    text-align: center;
 }
 .random-info {
     color: #1F2937;
 }
 
+.awesome-pic {
+    display: flex;
+    flex: 1;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.awesome-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.title {
+   font-size: 48px;
+   font-weight: bolder; 
+}
+
+.subtext {
+    font-size: 18px;
+    color: #94969e;
+}
+
+button {
+   background-color: #3882F6; 
+   color: #F9FAF8;
+   border-radius: 8px;
+   width: 150px;
+   justify-content: center;
+}
+
+/* Random Information Section */
+.pics {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
 /* Gray Quote Section */
 .quote {
     background-color: #94969e;
@@ -78,6 +121,7 @@ li {
 .info-header {
     font-size: 36px;
     font-weight: bolder;
+    font-family: sans-serif;
     text-align: center;
 }
 
