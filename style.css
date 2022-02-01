@@ -106,6 +106,12 @@ button {
     padding-left: 100px;
     padding-right: 100px;
 }
+
+figure img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
 /* Gray Quote Section */
 .quote {
     background-color: #94969e;
