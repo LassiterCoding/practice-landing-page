@@ -39,6 +39,9 @@ li {
     width: 100%;
     display: flex;
     flex: 1;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 ul {
