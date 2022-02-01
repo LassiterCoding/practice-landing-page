@@ -9,6 +9,9 @@ html, body {
 body {
     height: 100vh;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 /* Dark Blue Top */
@@ -65,17 +68,19 @@ li {
     background-color: #94969e;
 }
 
+.words {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    text-align: center;
+}
+
 .info-header {
     font-size: 36px;
     font-weight: bolder;
     text-align: center;
 }
 
-.words {
-    font-size: 36px;
-    color: #1F2937;
-    font-style: italic;
-}
 .bottom {
     background-color: #1F2937;
     color: #E5E7EB;
